@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.faketag {
+    color: dodgerblue;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.gtlt {
+    color: gray;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fakevalue {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container {
+    margin-top: 240px;
+    margin-left: 130px;
+    margin-bottom: 190px;
+}
+.title {
+  font-size: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+.mainDiv {
+    width: 100%;
+}
+
+
+.rightDiv {
+    width: 50%;
+    float: left;
+}
+
+.contactTitle {
+    color: silver;
+    font-size: 18pt;
+}
+
+.contactInfo {
+    color: gray;
+}
+
+.bottomDiv {
+    color: silver;
+    text-align: center;
+}
+.lft_bottom {
+    margin-right: 150px;
+}
+.rgt_bottom {
+    margin-left: 150px;
+}
+.mid_bottom {
+    width: 100%
+    text-align: center;
+    color: yellow;
+}
+
+.bottomLink {
+    color: silver;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.bottomLink:hover {
+    text-decoration: none;
+    color: white;
+}
