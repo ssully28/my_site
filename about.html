@@ -10,61 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> 
     <title>I am Steve I am.</title>
 
-    <script>
-
-        var iams = [
-            'Scuba Diver',
-            'Hockey Player',
-            'Web Developer...in training',
-            'Perl Programmer',
-            'Mexican Food Aficianado',
-            'Photographer',
-            '5th Generation San Franciscan'
-          ];
-          
-    
-          
-          var speed = 75;
-          var delSpeed = 250;
-          var i = 0;
-          let j = 0;
-    
-          function typeIt() {
-            if (i < iams[j].length){
-              document.getElementById("iamTitle").innerHTML += iams[j].charAt(i);
-              i++;
-              setTimeout(typeIt, speed);
-            }
-            else {
-              setTimeout(untypeIt, 1500);
-            }
-            
-          }
-    
-          function untypeIt(){
-            if (document.getElementById("iamTitle").innerHTML.length > 0){
-              document.getElementById("iamTitle").innerHTML = document.getElementById("iamTitle").innerHTML.slice(0,-1);
-              setTimeout(untypeIt, delSpeed);
-            }
-            else if (j >= iams.length) {
-              // That's it...let's leave it to the last one.
-            }
-            else {
-              j++;
-              i = 0;
-              if (j >= iams.length){
-                j = 0;
-              }
-              setTimeout(typeIt, speed);
-            }
-    
-          }
-    
-    
-          
-        </script>
-
-
 
 </head>
 
@@ -94,19 +39,20 @@
 
   <div class="container">
       <div class="title">
-          <span class="gtlt">&lt;</span><span class="faketag">iam</span><span class="gtlt">&gt;</span><span class="fakevalue" id="iamTitle"></span><span class="gtlt">&lt;</span><span class="faketag">/iam</span><span class="gtlt">&gt;</span>
+          <span class="gtlt">&lt;</span><span class="faketag">i_do</span><span class="gtlt">&gt;</span><span class="fakevalue" id="iamTitle"></span><span class="gtlt">&lt;</span><span class="faketag">/i_do</span><span class="gtlt">&gt;</span>
       </div>
   </div>
   
   <div class="bottomDiv"><a href="steve_sullivan_res.pdf" class="bottomLink" download>RESUME</a> | <a href="https://steven-sullivan.smugmug.com/" class="bottomLink">PHOTOS</a></div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="mysite.js"></script>
   </body>
 </html>
