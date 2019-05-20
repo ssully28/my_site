@@ -1,8 +1,22 @@
 
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
+
+.container {
+    margin-top: 180px;
+    margin-bottom: 190px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-top: 240px;
+    margin-left: 130px;
+    margin-bottom: 190px;
+  }
+}
+
 
 h1 {
     font-size: 30px;
@@ -25,11 +39,6 @@ h1 {
 .fakevalue {
     margin-left: 0px;
     margin-right: 0px;
-}
-.container {
-    margin-top: 240px;
-    margin-left: 130px;
-    margin-bottom: 190px;
 }
 .title {
   font-size: 25px;

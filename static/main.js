@@ -17,7 +17,7 @@ var idos = [
   'Flask',
   'Perl...lots of Perl',
   'React...Redux',
-  'SQL (Oracle, MySQL, Postgres, SQLServer...)'
+  'SQL'
 ];
 
 
